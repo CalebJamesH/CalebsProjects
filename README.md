@@ -3,5 +3,5 @@
 
 ### Quiz Game
 
-[How Well Do You Know Caleb?](JavaScript-Projects/Quiz-game)
+[How Well Do You Know Caleb?](JavaScript-Projects/My-games/quiz-game.js)
 
