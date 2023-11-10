@@ -100,9 +100,20 @@ if (answer8.toUpperCase() === correct_answer8) {
 }
 
 
-console.log("you got", correctAnswers, "out of", totalQuestions, "which is", correctAnswers / totalQuestions * 100, "percent")
+const percent = Math.round((correctAnswers / totalQuestions) * 100);
 
+const grade = ("you got " + percent + "%!")
 
-// answer time 
+console.log(grade);
 
-
+if (percent >= 99) {
+   console.log("Wow, you got 100%! That is incredible! You must be a great friend of my Master. I hope you know my Master is very happy with how much you know him and he really needs to start treating you better");
+} else if (percent >= 87){
+    console.log("You did a pretty good job. You must be a great friend of his!");
+} else if (percent >= 75) {
+    console.log("ok ok, not too bad. you could still get to know him bettter");
+} else if (percent >= 50) {
+    console.log("You need to start spending more time with my master.");
+} else {
+    console.log("Wow! You are a bad friend. Do you even know my master?")
+}
