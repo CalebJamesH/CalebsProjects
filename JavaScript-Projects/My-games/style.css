@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+div {
+   border: 1px solid black; 
+   width: 35%;
+   background: linear-gradient(to bottom right,blue, green, yellow);
+   border-radius: 7px;
+}
+
+p {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+input {
+    width: 60%;
+
+}
+input:focus {
+    background-color: #999;
+}
+
+label {
+    width: 35%;
+    margin-left: 25px;
+}
+
+button {
+    width: 75px;
+    height: 35px;
+    margin: 10px 0px 10px 60%;
+    background-color: #999;
+}
