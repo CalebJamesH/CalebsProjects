@@ -9,4 +9,4 @@
 [Random number generator and guesser](JavaScript-Projects/My-games/random-GG.js)
 
 ### RPG game 
-[Do you have what it takes?](JavaScript-projects/My-games/RPG-game.js)
+[Do you have what it takes?](JavaScript-Projects/My-games/RPG-game.js)
