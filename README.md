@@ -10,3 +10,6 @@
 
 ### RPG game 
 [Do you have what it takes?](JavaScript-Projects/My-games/RPG-game.js)
+
+### Rock, Paper, Scissors game
+[](JavaScript-Projects/rockps.js)
