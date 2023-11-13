@@ -12,4 +12,4 @@
 [Do you have what it takes?](JavaScript-Projects/My-games/RPG-game.js)
 
 ### Rock, Paper, Scissors game
-[](JavaScript-Projects/rockps.js)
+[Wanna play some good ol' rock, paper, scissors?](JavaScript-Projects/rockps.js)
