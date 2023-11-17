@@ -11,7 +11,7 @@ h3 {
 
 div {
    border: 1px solid black; 
-   width: 35%;
+   width: 45%;
    background: linear-gradient(to bottom right,blue, green, yellow);
    border-radius: 7px;
 }
@@ -21,9 +21,10 @@ p {
     font-size: 20px;
 }
 
-input {
+#textInput {
     width: 60%;
-
+    height: 28px;
+    font-size: 20px;
 }
 input:focus {
     background-color: #999;
@@ -32,9 +33,13 @@ input:focus {
 label {
     width: 35%;
     margin-left: 25px;
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 6px;
+    padding-top: 6px;
 }
 
-button {
+#button {
     width: 75px;
     height: 35px;
     margin: 10px 0px 10px 60%;
