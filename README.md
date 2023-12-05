@@ -13,3 +13,7 @@
 
 ### Rock, Paper, Scissors game
 [Wanna play some good ol' rock, paper, scissors?](JavaScript-Projects/My-games/rockps.js)
+
+
+### Check out my digital clock here
+[Check out my digital clock](JavaScript-Projects/Mygames)
