@@ -16,4 +16,4 @@
 
 
 ### Check out my digital clock here
-[Check out my digital clock](JavaScript-Projects/Mygames)
+[Check out my digital clock](JavaScript-Projects/digi-clock)
