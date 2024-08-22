@@ -25,7 +25,8 @@ def createFile(fileName):
     else: 
         print(f"File {fileName} created with success.")
         
-        
+
+# Function to register a game     
 def registerGame(fileName, gameName, videogameName):
     try:
         a = open(fileName, "at")
@@ -35,7 +36,8 @@ def registerGame(fileName, gameName, videogameName):
         a.write(f"{gameName};{videogameName}\n")
     finally:
         a.close()
-        
+    
+      
 def listFile(fileName):
     try:
         a = open(fileName, "rt")
@@ -43,8 +45,12 @@ def listFile(fileName):
         print("Error")
     else:
         print(a.read())
+        data = a.readlines()
+    finally:
+        a.close()
+        return data
         
-#This function is used for Hangman
+#These function is used for Hangman
 def insert_score(fileName, playerName, score):
     try:
         a = open(fileName, 'at')
@@ -54,32 +60,14 @@ def insert_score(fileName, playerName, score):
         a.write('{}:{}\n'.format(playerName, score))
     finally:
         a.close()
+        
 
-    
+def openFileForReading(fileName):
+    try: 
+        a = open(fileName, 'r')
+    except:
+        print("Couldn't open the file to read.")
+    else: 
+        print(f"File {fileName} opened successfully!\n")
+        return a
 
-# Will return whether or not the file exists
-file = 'games.txt'
-if fileExists(file):
-    print("File Found.")
-else:
-    print("File does not exist")
-    createFile(file)
-
-while True:
-    print("MENU")
-    print("1 - Register new item")
-    print("2 - Lister Register")
-    print("3 - Exit")
-    
-    op = valid_int("Pick the desired option: ", 1, 3)
-    if (op == 1):
-        print("Add new item selected...\n")
-        gameName = input("Game's name: ")
-        videogameName = input("Videogame's name: ")
-        registerGame(file, gameName, videogameName)   
-    elif(op == 2):
-        print("list registry selected...\n")
-        listFile(file)
-    elif(op == 3):
-        print("leaving program...\n")
-        break

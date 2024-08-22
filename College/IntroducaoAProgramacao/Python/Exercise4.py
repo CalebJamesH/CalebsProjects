@@ -4,13 +4,14 @@ computer_wins = 0
 player_wins = 0 
 draws = 0
 
-random_index = random.randint(0, 2)
+
 
 while True:
     play = input("Would you like to play? ")
     if (play.lower() == 'no'):
         break
     while True:
+        random_index = random.randint(0, 2)
         player_choice = input("Select Rock, Paper, or Scissors: ")
         while True:
             if player_choice in index:
