@@ -1,0 +1,3 @@
+Hello world! 
+
+We will be working with files through JavaScript in the files.js file
