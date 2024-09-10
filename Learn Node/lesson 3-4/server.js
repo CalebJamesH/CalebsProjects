@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
   const greet = _.once(() => {
     console.log('hello')
   });
+  greet()
 
   // set header content type
   res.setHeader('Content-Type', 'text/html');
